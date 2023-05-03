@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Rubik+Distressed&family=Rubik+Iso&display=swap');
+body{
+   background-image: url(https://phonoteka.org/uploads/posts/2022-02/1645237603_1-phonoteka-org-p-rizhii-gradient-fon-1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+h1{
+   text-align: center;
+   font-family: 'Rubik Distressed', cursive;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: darkblue;
+}
+h2{
+   text-align: center;
+   font-family: 'Rubik Iso', cursive;
+   color: gold;
+}
+p{
+   font-family: 'Pacifico', cursive;
+   color: limegreen;
+}
+img{
+   width: 45px;
+   height: 35px;
+}
+* { border-sizing: border-box;}
+
+.container { 
+  width: 80%;
+  border: 2px dashed #000;
+  padding: 5px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.item {
+  background: darkblue;
+  margin-bottom: 10px;
+  margin-right: 10px;
+
+  float: left;
+}
+.width15pct {
+  width: 15%;
+  
+}
+.width25pct {
+  width: 25%;
+ 
+  background: darkred;
